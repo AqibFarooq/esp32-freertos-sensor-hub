@@ -67,6 +67,25 @@ Health Monitor Task
 
 ---
 
+## Getting Started
+
+Install ESP-IDF, open an ESP-IDF terminal, then build the firmware:
+
+```sh
+idf.py set-target esp32
+idf.py build
+```
+
+Flash and monitor the board:
+
+```sh
+idf.py -p /dev/ttyUSB0 flash monitor
+```
+
+On macOS, the serial port is often named like `/dev/cu.usbserial-*` or `/dev/cu.SLAB_USBtoUART`.
+
+---
+
 ## Future Enhancements
 
 - CAN bus communication
