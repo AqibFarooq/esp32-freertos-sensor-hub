@@ -20,7 +20,7 @@ The goal is to build a modular sensor hub running on ESP32 using modern C++ and 
 
 ## Planned Features
 
-### Phase 1 - On Going
+### Phase 1 - In Progress
 - FreeRTOS task creation
 - Periodic task scheduling
 - Serial logging
@@ -42,6 +42,21 @@ The goal is to build a modular sensor hub running on ESP32 using modern C++ and 
 
 ---
 
+## Planned Architecture
+
+```text
+Sensor Task
+    |
+    v
+  Queue
+    |
+    +------> Display Task
+    |
+    +------> Logger Task
+
+Health Monitor Task
+```
+
 ## Technology Stack
 
 - ESP32
@@ -51,6 +66,16 @@ The goal is to build a modular sensor hub running on ESP32 using modern C++ and 
 - Git
 
 ---
+
+## Future Enhancements
+
+- CAN bus communication
+- SPI peripherals
+- MQTT telemetry
+- Fault injection testing
+- Watchdog monitoring
+- Persistent storage
+- 
 
 ## Project Status
 
