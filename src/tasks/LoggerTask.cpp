@@ -10,7 +10,7 @@ namespace {
 constexpr const char* kTag = "logger_task";
 constexpr uint32_t kStackSize = 3072;
 constexpr UBaseType_t kPriority = 3;
-constexpr TickType_t kPeriod = pdMS_TO_TICKS(2000);
+constexpr TickType_t kPeriod = pdMS_TO_TICKS(1000);
 
 void logger_task(void*)
 {

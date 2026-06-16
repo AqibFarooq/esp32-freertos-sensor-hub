@@ -9,7 +9,7 @@ namespace {
 
 constexpr const char* kTag = "sensor_task";
 constexpr uint32_t kStackSize = 3072;
-constexpr UBaseType_t kPriority = 5;
+constexpr UBaseType_t kPriority = 1;
 constexpr TickType_t kPeriod = pdMS_TO_TICKS(1000);
 
 void sensor_task(void*)

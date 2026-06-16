@@ -1,0 +1,23 @@
+{
+  "idf.adapterTargetName": "esp32",
+  "idf.buildPath": "/Users/aqibfarooq/Desktop/C++/Embedded/esp32-freertos-sensor-hub/build",
+  "idf.currentSetup": "/Users/aqibfarooq/.espressif/v6.0.1/esp-idf",
+  "idf.espIdfPath": "/Users/aqibfarooq/.espressif/v6.0.1/esp-idf",
+  "idf.port": "/dev/cu.usbserial-5A370093711",
+  "idf.pythonBinPath": "/Users/aqibfarooq/.espressif/python_env/idf6.0_py3.14_env/bin/python",
+  "idf.toolsPath": "/Users/aqibfarooq/.espressif",
+  "idf.customExtraVars": {
+    "ESP_IDF_VERSION": "6.0",
+    "IDF_PATH": "/Users/aqibfarooq/.espressif/v6.0.1/esp-idf",
+    "IDF_PYTHON_ENV_PATH": "/Users/aqibfarooq/.espressif/python_env/idf6.0_py3.14_env",
+    "IDF_TOOLS_PATH": "/Users/aqibfarooq/.espressif",
+    "PYTHON_BIN_PATH": "/Users/aqibfarooq/.espressif/python_env/idf6.0_py3.14_env/bin/python"
+  },
+  "clangd.path": "/Users/aqibfarooq/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/aqibfarooq/Desktop/C++/Embedded/esp32-freertos-sensor-hub/build"
+  ],
+  "idf.flashType": "UART"
+}
